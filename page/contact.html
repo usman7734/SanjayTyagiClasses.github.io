@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../image/Logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Sanjay Tyagi Classes</title>
+    <script src="../script.js"></script>
+  
+</head>
+<body class="" id="body">
+    <div>
+        <nav>
+            <div id="mainLogoBox">
+            <img src="../image/Logo2.png" alt="Sanjay Classes Logo" id="mainLogo">
+
+        </div>
+            <ul>
+                <!-- <li> <img src="../image/daynight.png" alt="" id="daynight" onclick="colorChange()"></li> -->
+                <li class="navigation"><a href="../index.html"> About Sanjay Sir </a></li>
+                <li class="navigation"><a href="why.html"> Why Sanjay Classes </a></li>
+                <li class="navigation"><a href="subject.html"> Our Subjects</a></li>
+                <li class="navigation navigation2">Contact Me</li>
+            </ul>
+        </nav>
+     </div> <!--  //============  finish of Header ================ -->
+     <marquee behavior="" direction=""><pre>Special Offer: 1500 per Unit for BCA and BBA Subjects.              Special Offer: 1500 per Unit for BCA and BBA Subjects.              Special Offer: 1500 per Unit for BCA and BBA Subjects.</pre>         </marquee>
+
+<div class="form"> 
+     <form action="" onsubmit="return validate()">
+        <div class="label">
+            Name: <input type="text" required autofocus placeholder="Enter Your Name" id="name"> <p class="error" id="nameError"></p>
+        </div>
+
+        <div class="label">
+            Mobile Number: <input type="number" required placeholder="Mobile Number" id="mob"> <p class="error" id="mobileError"></p>
+        </div>
+        <div class="label">
+            Gender: <input type="radio" name="gender" id="Male" required >Male
+            <style>
+                input[type=radio] {
+                    /* border: 0px; */
+                    width: 5%;
+                    height: 1em;
+                }
+            </style>
+                    <input type="radio" name="gender" id="Male">Female
+        </div>
+        <div class="label">Course Name: <input type="text" list="course" placeholder=" 9th, 10th, BBA, BCA"></div>
+        <div class="label">
+            <input  type="submit" id="submitButton" >
+        </div>
+        <datalist  id="course">
+            <option value="Bachelors of Business Administration">BBA</option>
+            <option value="Bachelors's in Computer Application">BCA</option>
+            <option value="9th Class">9<sup>th</sup>Class</option>
+            <option value="10th Class">10<sup>th</sup>Class</option>
+            <option value="11th Class">11<sup>th</sup>Class</option>
+            <option value="12th Class">12<sup>th</sup>Class</option>
+        </datalist>
+
+     </form>
+
+    </div>
+
+<!-- 
+<script>
+    function validate()
+    {
+        console.log("Function is calling....");
+        let name=document.getElementById("name");
+        let mobile1=document.getElementById("mob");
+        // console.log(name.value.length);
+        if(name.value.length <4)
+        {
+            document.getElementById("nameError").innerHTML="! Enter Your Full Name";
+            return false;
+            // console.log(mob);
+        }
+        else if(mobile1.value.length <10)
+        {
+            document.getElementById("nameError").innerHTML="";
+
+            // console.log("moile number checking");
+            document.getElementById("mobileError").innerHTML="! Enter Your 10 Digit Mobile Number";
+            return false
+        }
+        else{
+            document.getElementById("nameError").innerHTML="";
+            document.getElementById("mobileError").innerHTML="";
+            return true;
+
+        }
+    }
+
+    </script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>  <!-- Start of Header================================-->
+    <div id="contactdetails">
+        <div>
+            Sanjay Tyagi Classes
+        </div>
+        <div class="mobile">
+           Mobile No : <a href="tel:+919891426378">9891426378 </a> <br>
+            Mobile no : <a href="tel:+918130906363"> 8130906363 </a>
+        </div>
+        <div class="address"> <address>
+           Address: Shop No:16, Fisrt Floor Sector 3, 
+           Uttranchal Plaza, Vasundhra GZB, UP 201012
+        </address>
+        </div>
+        <div id="mail">
+            Mail ID: <a href="mailto:sanjaytyagi1205@gmail.com" >sanjaytyagi1205@gmail.com</a>
+        </div>
+       <div class="digitalcontact">
+            <a href="https://youtu.be/JzjTB4NBTVc" target="_blank"><div id="youtube" class="social"> </div></a>
+            <a href="https://www.facebook.com/sanjaytyagiclasses/?_rdr" target="_blank"><div id="facebook" class="social"></div></a>
+            <a href="https://wa.me/919891426378?text=Hello_Sir_I_Have_Received_Your_Number_from_Your_website" target="_blank"><div id="whatsapp" class="social"></div></a>
+            <a href="https://www.justdial.com/Delhi/Sanjay-Tyagi-Classes-Near-By-Rail-Kunj-Society-Vasundhara-Ghaziabad/011PXX11-XX11-160510081629-V5Q1_BZDET" target="_blank"><div id="justdial" class="social"></div></a>
+            <img src="../image/daynight.png" alt="" id="bottomImage" onclick="colorChange()" height="100px" width="100px" title="Night Mode On">
+            
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.7200631228957!2d77.37588671508342!3d28.66809948240376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf075aff2db13%3A0x917eaa0ae5f24793!2sSanjay%20Tyagi%20Classes!5e0!3m2!1sen!2sin!4v1662070417341!5m2!1sen!2sin" width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="developer">
+            <a href="mailto:aliusman7734@gmail.com"><div id="developer1">Facing Problem on website</div> </a>
+             <a href="mailto:aliusman7734@gmail.com"><div class="developer2">Feedback to Developer</div> </a>
+             <a href="mailto:aliusman7734@gmail.com"><div id="developer3">aliusman7734@gmail.com</div> </a>
+        </div>
+    </div>
+</footer>
+</body>
+</html
